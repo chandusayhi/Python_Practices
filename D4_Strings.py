@@ -48,10 +48,213 @@ print(d) #h
 print(e) #o
 print(f) #n
 
+#Accessing characters in strings by index
+language = 'Python'
+first_letter = language[0]
+print(first_letter) #P
+second_letter = language[1]
+print(second_letter) #y
+last_index = len(language) - 1
+last_letter = language[last_index]
+print(last_letter) #n
+
+#if we want to start from right end we can use negative indexing,
+#-1 is the last item
+language = 'Python'
+last_letter = language[-1]
+print(last_letter) #n
+second_last = language[-2]
+print(second_last) #o
+
+#Slicing
+
+language = 'Python'
+first_three = language[0:3] #starts at zero index and up to 3 but not include 3
+last_three = language[3:6]
+print(last_three) #hon
+
+#Another way
+last_three = language[-3:]
+print(last_three) #hon
+last_three = language[3:]
+print(last_three)
+ 
 
 
 
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
