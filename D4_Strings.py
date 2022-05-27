@@ -80,6 +80,61 @@ last_three = language[3:]
 print(last_three)
  
 
+#Skipping character while splitting python strings
+
+language = 'Python'
+pto = language[0:6:2]
+print(pto) #pto
+
+#Escape Sequence
+print('I hope every one enjoying the python challenge. \n Do you?')
+print('Days\tTopics\tExercises')
+print('Day 1\t3\t5')
+print('Day 2\t3\t5')
+print('Day 3\t3\t5')
+print('This is a back slash symbol (\\)') # To write a back slash
+print('In every programming language it starts with \"Hellow Worls!\"')
+
+##String Methods
+#Capitalize(): Converts the first character the string to capital letter
+
+challenge = 'thirty days of python'
+print(challenge.count('y')) #3
+print(challenge.count('y',7, 14)) #1
+print(challenge.count('th'))  #2
+
+#endswith(): Checks if a string ends with a specified ending
+
+challenge = 'thirty days of python'
+print(challenge.endswith('on'))  #True
+print(challenge.endswith('tion'))   #False
+
+#expandtabs(): Replaces tab character with spaces, default tab size is 8.
+
+challenge = 'thirty\tdays\tof\tpython'
+print(challenge.expandtabs())  #thirty    days   of   python
+print(challenge.expandtabs(10))
+
+#find(): returns the index of first occurances of substring
+
+challenge = 'thirty days of python'
+print(challenge.find('y'))  #5
+print(challenge.find('th'))  #0
+
+#index(): Return the index of substring
+challenge = 'thirty days of python'
+print(challenge.find('y'))  #5
+
+#startswith(): checks string starts with the specified string
+challenge = 'thirty days of python'
+print(challenge.startswith('thirty'))  #true
+
+#swapcase(): Converts lower acse letter to upcase letter
+challenge = 'thirty days of python'
+print(challenge.swapcase())  #THIRTY DAYS OF PYTHON
+challenge = 'ThirTy Days OF PythON'
+print(challenge.swapcase()) #tHIRtY dAYS of pYTHon
+
 
 
  
