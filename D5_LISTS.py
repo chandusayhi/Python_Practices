@@ -51,6 +51,163 @@ print(last_fruit)
 print(second_last)
 
 
+#Slicing Lists
+fruits = ['banana', 'orange', 'mango', 'lemon']
+all_fruits = fruits[0:4] #it returns all the fruits
+#this is also gave the same result as the above
+all_fruits = fruits[0:] #if we don't set where to stop it take all the rest
+orange_and_mango = fruits[1:3]
+orange_mongo_lemon = fruits[1:]
+
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+all_fruits = fruits[-4:] #it returns all the fruits
+orange_and_mango = fruits[-3:-1]
+orange_mongo_lemon = fruits[-3:]
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
