@@ -65,7 +65,146 @@ all_fruits = fruits[-4:] #it returns all the fruits
 orange_and_mango = fruits[-3:-1]
 orange_mongo_lemon = fruits[-3:]
 
-    
+
+fruits = ['banana', 'orange', 'mango', 'lemon'] 
+fruits[0] = 'Avocado'
+print(fruits)  #['Avocado', 'orange', 'mango', 'lemon']
+fruits[1] = 'apple'
+print(fruits)  #['Avocado', 'apple', 'mango', 'lemon']
+last_index = len(fruits) - 1
+fruits[last_index] = 'lime'
+print(fruits)  #['Avocado', 'apple', 'mango', 'lime']
+
+
+#Checking items
+fruits = ['banana', 'orange', 'mango', 'lemon'] 
+does_exist = 'banana' in fruits
+print(does_exist)  #True
+does_exist = 'lime' in fruits
+print(does_exist)   #False
+
+
+#Append
+fruits = ['banana', 'orange', 'mango', 'lemon'] 
+fruits.append('apple')
+print(fruits)   #fruits = ['banana', 'orange', 'mango', 'lemon','apple']
+fruits.append('lime')
+print(fruits)   #['banana', 'orange', 'mango', 'lemon', 'apple', 'lime']  
+
+
+#Inserting items in list
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.insert(2, 'apple') #insert apple between orange and mango
+print(fruits) #['banana', 'orange', 'apple', 'mango', 'lemon']
+fruits.insert(3, 'lime')
+print(fruits) #['banana', 'orange', 'apple', 'lime', 'mango', 'lemon']
+
+
+#Removing Items
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.remove('banana')
+print(fruits) #['orange', 'mango', 'lemon']
+fruits.remove('lemon')
+print(fruits) #['orange', 'mango']
+
+
+#POP
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.pop()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
