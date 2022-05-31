@@ -52,6 +52,71 @@ print(first_item)
 print(second_item)
 
 
+#Slicing Tuples
+#We can slice out a ub-tuple by specifying a range of indexes
+#where to start and where to end in the tuple, the return value
+#will be a new tuple with the specified items.
+
+#Range of positive indexes
+tpl = ('item1','item2','item3','item4')
+all_items = tpl[0:4]   #all items
+all_items = tpl[0:]   #all items
+middle_two_items = tpl[1:3]  #does not include item at index 3
+print(all_items)
+print(middle_two_items)
+
+
+#Range of negative indexes
+fruits = ('banana', 'orange', 'mango', 'lemon')
+all_fruits = fruits[-4:]
+org_man = fruits[-3:-1]
+org_to_the_rest = fruits[-3:]
+print(all_fruits)
+print(org_man)
+print(org_to_the_rest)
+
+#Changing tuple to list
+#We can change tuples to list and lists to tuples.
+#Tuple is immutable if we want to modify a tuple we should 
+#change it to a list
+
+fruits = ('banana', 'orange', 'mango', 'lemon')
+fruits = list(fruits)
+fruits[0] = 'apple'
+print(fruits)  #['apple', 'orange', 'mango', 'lemon']
+fruits = tuple(fruits)
+print(fruits)
+
+#Checking an item in a tuple
+#we can check if an item exists or not in a tuple using in,
+#it returns a boolean
+
+fruits = ('banana', 'orange', 'mango', 'lemon')
+print('orange' in fruits ) #True
+print('apple' in fruits)  #False
+
+#Joining Tuples
+#we can join two or more tuple using + operator
+
+tpl1 = ('item1','item2','item3')
+tpl2 = ('item4','item5','item6')
+tpl_final = tpl1 + tpl2
+print(tpl_final)
+
+#Deleting tuples
+#It is not possible to remove a single item in a tuple 
+#but it is possible to delete the tuple itself using del
+
+fruits = ('banana','orange','mango','lemon')
+del fruits
+print(fruits)
+
+
+
+
+
+
+
 
 
 
